@@ -15,7 +15,7 @@ const Login = () => {
   localStorage.setItem("email", state.email);
   const handleLogin = () => {
     axios({
-      url: "http://localhost:3000/",
+      url: "https://real-estate-server.onrender.com/",
       method: "POST",
       headers: {},
       data: { email: state.email, password: state.password },

@@ -20,7 +20,7 @@ const Signup = () => {
       validator.isEmail(data.email)
     ) {
       axios({
-        url: "http://localhost:3000/signup",
+        url: "https://real-estate-server.onrender.com/signup",
         method: "POST",
         headers: {},
         data: {

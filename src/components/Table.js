@@ -7,7 +7,7 @@ const Table = () => {
   const [allPost, setAllPost] = useState([]);
   const [searchTerm, setsearchTerm] = useState("");
   useEffect(() => {
-    fetch("http://localhost:3000/posts")
+    fetch("https://real-estate-server.onrender.com/posts")
       .then((res) => {
         return res.json();
       })

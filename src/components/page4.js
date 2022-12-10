@@ -86,7 +86,7 @@ const Page4=()=>{
       Latitude,
       Longitude
     } = data;
-    await fetch("http://localhost:3000/adding", {
+    await fetch("https://real-estate-server.onrender.com/adding", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
